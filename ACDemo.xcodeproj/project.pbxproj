@@ -163,7 +163,11 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ACDemo" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* ACDemo */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +238,7 @@
 				INFOPLIST_FILE = "ACDemo-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = ACDemo;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -248,6 +253,7 @@
 				INFOPLIST_FILE = "ACDemo-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = ACDemo;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
